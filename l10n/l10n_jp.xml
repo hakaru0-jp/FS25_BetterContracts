@@ -2,71 +2,71 @@
 <l10n>
 	<texts>
 		<!-- updates v1.3.0.8 -->
-		<text name="bc_vecSelect" text="Vehicle Selection" />
-		<text name="bc_vecSelect_tooltip" text="Use vehicle selection dialog when borrowing equipment for a contract." />
+		<text name="bc_vecSelect" text="車両選択" />
+		<text name="bc_vecSelect_tooltip" text="契約用に機材を借りる際、車両選択ダイアログを使用します。" />
 		<!-- updates v1.3.0.5 
-		- add onions to text:
+- 		add onions to text:
 		<text name="bc_genVegetable_tooltip" text="Generate harvest contracts for carrots, beetroot, parsnip, and onions" />
 		-->
 		<!-- updates v1.3.0.3 -->
-		<text name="bc_genSingle" text="Single Generation" />
-		<text name="bc_genSingle_tooltip" text="Generate only max 1 mission per interval and mission type." />
+		<text name="bc_genSingle" text="単一生成" />
+		<text name="bc_genSingle_tooltip" text="インターバルおよびミッションタイプごとに最大1つのミッションのみ生成します。" />
 
 		<!-- updates v1.2.0.3 -->
 		<!-- updates v1.3.0.0 
 			bc_harvest: text="Harv. %.6s"
-	  		bc_hardMode_tooltip: shortened text
-	  	-->
-		<text name="bc_sow" text="Sow %.8s" />
+	 		bc_hardMode_tooltip: shortened text
+	 	-->
+		<text name="bc_sow" text="播種 %.8s" />
 
-		<text name="bc_balesTotal" text="Bales expected:" />
-		<text name="bc_balesDone" text="Already baled:" />
+		<text name="bc_balesTotal" text="予想ベール数:" />
+		<text name="bc_balesDone" text="作成済みベール数:" />
 		<!-- updates v1.2.0.0 -->
-		<text name="bc_vehicleBox" text="Vehicle Selection" />
+		<text name="bc_vehicleBox" text="車両選択" />
 		<!-- updates v1.1.1.3 -->
-		<text name="bc_stayNew" text="Stay on NEW contracts list" />
-		<text name="bc_stayNew_tooltip" text="Do not switch to ACTIVE contracts list when a new contract is accepted." />
-		<text name="bc_finishField" text="Complete contract field" />
-		<text name="bc_finishField_tooltip" text="Allow to complete 100% of a field after contract finishes." />
-		<text name="bc_hideMission" text="Hide inactive contracts" />
-		<text name="bc_hideMission_tooltip" text="Hide accepted contracts with 0% completion from right side hud." />
+		<text name="bc_stayNew" text="新規契約リストを維持" />
+		<text name="bc_stayNew_tooltip" text="新しい契約を受諾した際に、実行中契約リストへ自動で切り替えないようにします。" />
+		<text name="bc_finishField" text="契約農地の完了処理" />
+		<text name="bc_finishField_tooltip" text="契約終了後に畑の作業を100%完了できるように許可します。" />
+		<text name="bc_hideMission" text="非アクティブな契約を非表示" />
+		<text name="bc_hideMission_tooltip" text="進捗0%の受諾済み契約を画面右側のHUDから非表示にします。" />
 		<!-- updates v1.1.1.2 -->
 		<text name="global_bc_name" text="Better Contracts" />
-		<text name="bc_settingsNoPermission" text="You don&apos;t have the permission to change Better Contracts settings!" />
+		<text name="bc_settingsNoPermission" text="Better Contractsの設定を変更する権限がありません！" />
 		<!-- Keys -->
 		<text name = "input_MENU_EXTRA_3" text = "契約詳細表示切替"/>
-		<text name = "input_BC_MTOGGLE" text = "BC: Toggle display of active farm contracts"/>
-		<text name = "bc_actionFerment" text = "Ferment Bale"/>
+		<text name = "input_BC_MTOGGLE" text = "BC: 進行中農場契約の表示切替"/>
+		<text name = "bc_actionFerment" text = "ベール発酵"/>
 		<!-- Gui Buttons -->
-		<text name="bc_hidden" text="Hidden: %d" />
-		<text name="bc_other" text="Other" />
+		<text name="bc_hidden" text="非表示: %d" />
+		<text name="bc_other" text="その他" />
 		<text name="bc_new_contracts" text="契約更新" />
 		<text name="bc_clear_contracts" text="契約解除" />
 		<text name="bc_detailsOff" text="詳細非表示" />
 		<text name="bc_detailsOn" text="詳細表示" />
 
 		<!-- Hard mode -->
-		<text name="bc_penalty" text="Penalty" />
-		<text name="bc_warnTimeout" text="Please complete your %d contract(s) within next hour, to prevent contract penalties." />
-		<text name="bc_warnCancel" text=" Contract penalty will be at least " />
-		<text name="bc_leaseNotEnough" text="You need to complete %d more jobs for %s with own equipment, before you can borrow machines." />
+		<text name="bc_penalty" text="ペナルティ" />
+		<text name="bc_warnTimeout" text="契約ペナルティを防ぐため、あと1時間以内に %d 件の契約を完了してください。" />
+		<text name="bc_warnCancel" text=" 契約ペナルティは最低でも " />
+		<text name="bc_leaseNotEnough" text="機材を借りるには、所有機器で %s の仕事をあと %d 件完了する必要があります。" />
 
 		<!-- discount mode -->
-		<text name="bc_maxJobs" text="You have reached the maximum discount for %s." />
-		<text name="bc_discount" text="discount" />
-		<text name="bc_discValue" text="%s grants you %d %% discount for future field purchases." />
-		<text name="bc_owner" text="Owner:" />
+		<text name="bc_maxJobs" text="%s の最大割引率に達しました。" />
+		<text name="bc_discount" text="割引" />
+		<text name="bc_discValue" text="%s からの依頼により、今後の農地購入時に %d %% の割引が適用されます。" />
+		<text name="bc_owner" text="所有者:" />
 
 		<!-- Display texts -->
-		<text name="bc_mowed" text="Mowed:" />
-		<text name="bc_tomow" text="To mow:" />
-		<text name="bc_chaff" text="Cut %s" />
-		<text name="bc_jobType_chaff" text="Forage" />
-		<text name="bc_harvest" text="Harv. %.6s" />
-		<text name="bc_leased" text="/ Leased " />
-		<text name="bc_enoughMissions" text="Your farm already has the maximum number of contracts." />
-		<text name="bc_jobsCompleted" text="Jobs completed: %d" />
-		<text name="bc_monthlyLimit" text="Your farm has reached the maximum number of contracts for this month." />
+		<text name="bc_mowed" text="刈り取り済み:" />
+		<text name="bc_tomow" text="刈り取り対象:" />
+		<text name="bc_chaff" text="%s 収穫" />
+		<text name="bc_jobType_chaff" text="飼料収穫" />
+		<text name="bc_harvest" text="収穫 %.6s" />
+		<text name="bc_leased" text="/ リース " />
+		<text name="bc_enoughMissions" text="あなたの農場はすでに最大数の契約を保持しています。" />
+		<text name="bc_jobsCompleted" text="完了した仕事: %d" />
+		<text name="bc_monthlyLimit" text="あなたの農場は今月の契約最大数に達しました。" />
 
 		<text name="SC_widhei" text="ほ場 横幅 / 縦幅:" />
 		<text name="SC_worktim" text="作業時間:" />
@@ -83,87 +83,87 @@
 		<text name="SC_usage" text="消費量:" />
 		<text name="SC_cost" text="負担額:" />
 		<text name="SC_togo" text="納品(残):" />
-		<text name="SC_fillType" text="Type of goods:" />
-		<text name="SC_profitSupply" text="Profit:" />
-		<text name="SC_timeleft" text="Time left:" />
+		<text name="SC_fillType" text="作物種別:" />
+		<text name="SC_profitSupply" text="利益:" />
+		<text name="SC_timeleft" text="残り時間:" />
 
 		<!-- Sort button help text -->
 		<text name="SC_sortCat" text="作業別" />
-		<text name="SC_sortRev" text="revenue" />
-		<text name="SC_sortNpc" text="farmer" />
+		<text name="SC_sortRev" text="報酬順" />
+		<text name="SC_sortNpc" text="依頼人順" />
 		<text name="SC_sortProf" text="純利益" />
 		<text name="SC_sortpMin" text="分利益" />
 
 		<!-- progress bars -->
-		<text name="bc_progField" text="Field progress" />
-		<text name="bc_progDeliver" text="Delivery progress" />
+		<text name="bc_progField" text="畑進行度" />
+		<text name="bc_progDeliver" text="納品進行度" />
 
 		<!-- Settings Page -->
-		<text name="bc_rewardMultiplier" text="Reward" />
-		<text name="bc_rewardMultiplier_tooltip" text="Adjust the rewards for contracts offered." />
-		<text name="bc_rewardMultiplierMow" text="Mow and bale reward" />
-		<text name="bc_rewardMultiplierMow_tooltip" text="Adjust the mow and bale rewards for contracts offered." />
-		<text name="bc_leaseMultiplier" text="Lease Cost" />
-		<text name="bc_leaseMultiplier_tooltip" text="Adjust the cost for borrowing equipment for contracts." />
-		<text name="bc_maxActive" text="Concurrently active contracts" />
-		<text name="bc_maxActive_tooltip" text="Max number of concurrently active contracts." />
-		<text name="bc_refreshMP" text="Permission contracts list" />
-		<text name="bc_refreshMP_tooltip" text="Who can delete / refresh contracts in an MP game." />
-		<text name="bc_ferment" text="Insta-Fermenting" />
-		<text name="bc_ferment_tooltip" text="Allows player to insta-ferment a wrapped grass bale from the F1 menu." />
-		<text name="bc_forcePlow" text="Root Crop Plowing" />
-		<text name="bc_forcePlow_tooltip" text="Every harvest of corn/ potato/ sugarbeet requires subsequent plowing." />
-		<text name="bc_debug" text="Debug Modus" />
-		<text name="bc_debug_tooltip" text="Prints info messages to the log if active. Can help to find bugs." />
+		<text name="bc_rewardMultiplier" text="報酬" />
+		<text name="bc_rewardMultiplier_tooltip" text="提示される契約の報酬金額を調整します。" />
+		<text name="bc_rewardMultiplierMow" text="刈り取り・ベール作成報酬" />
+		<text name="bc_rewardMultiplierMow_tooltip" text="提示される刈り取りおよびベール作成契約の報酬金額を調整します。" />
+		<text name="bc_leaseMultiplier" text="リース費用" />
+		<text name="bc_leaseMultiplier_tooltip" text="契約用に機材を借りる際の費用を調整します。" />
+		<text name="bc_maxActive" text="同時実行可能な契約数" />
+		<text name="bc_maxActive_tooltip" text="同時に受諾・実行できる契約の最大数です。" />
+		<text name="bc_refreshMP" text="マルチプレイ契約リスト権限" />
+		<text name="bc_refreshMP_tooltip" text="マルチプレイ時に契約の削除や更新を行えるプレイヤー権限を設定します。" />
+		<text name="bc_ferment" text="即時発酵" />
+		<text name="bc_ferment_tooltip" text="F1メニューからラップ済みグラスベールを即座に発酵できるようにします。" />
+		<text name="bc_forcePlow" text="根菜類の耕起義務" />
+		<text name="bc_forcePlow_tooltip" text="トウモロコシ、ジャガイモ、テンサイを収穫した後は毎回耕起が必要になります。" />
+		<text name="bc_debug" text="デバッグモード" />
+		<text name="bc_debug_tooltip" text="有効にするとログに詳細情報が出力され、バグの特定に役立ちます。" />
 
-		<text name="bc_lazyNPCTitle" text="Lazy Farmers" />
+		<text name="bc_lazyNPCTitle" text="怠惰な農家" />
 
-		<text name="bc_lazyNPC" text="Activated" />
-		<text name="bc_lazyNPC_tooltip" text="If active, NPC farmers more often skip work on their fields. So more contracts can be offered." />
-		<text name="bc_npcHarvest_tooltip" text="If active, NPC farmers do not harvest at all. Could result in a lot of work for you." />
-		<text name="bc_npcSow_tooltip" text="If active, NPC farmers perform sowing work more rarely and offer it as contracts instead." />
-		<text name="bc_npcPlowCultivate" text="Plow and Cultivate" />
-		<text name="bc_npcPlowCultivate_tooltip" text="If active, NPC farmers less often plow or cultivate on their own." />
-		<text name="bc_npcFertilize_tooltip" text="If active, NPC farmer perform fertilizing work more rarely and offer it as contracts instead." />
-		<text name="bc_npcWeed_tooltip" text="If active, NPC farmers fight weeds on thier fields more rarely, and instead offer spray and weeding contracts." />
+		<text name="bc_lazyNPC" text="有効化" />
+		<text name="bc_lazyNPC_tooltip" text="有効にすると、NPC農家が自分の畑の作業をサボる頻度が高くなり、より多くの契約が生成されます。" />
+		<text name="bc_npcHarvest_tooltip" text="有効にすると、NPC農家は自分で収穫を行わなくなります（プレイヤーへの依頼が急増する可能性があります）。" />
+		<text name="bc_npcSow_tooltip" text="有効にすると、NPC農家が自分で播種する頻度が減り、代わりに契約として提示されるようになります。" />
+		<text name="bc_npcPlowCultivate" text="耕起・耕うん" />
+		<text name="bc_npcPlowCultivate_tooltip" text="有効にすると、NPC農家が自分で畑の耕起や耕うんを行う頻度が減ります。" />
+		<text name="bc_npcFertilize_tooltip" text="有効にすると、NPC農家が自分で施肥する頻度が減り、代わりに契約として提示されるようになります。" />
+		<text name="bc_npcWeed_tooltip" text="有効にすると、NPC農家が自分で除草する頻度が減り、除草や農薬散布の契約が提示されやすくなります。" />
 
-		<text name="bc_hardModeTitle" text="Higher difficulty" />
-		<text name="bc_hardMode" text="Activated" />
-		<text name="bc_hardMode_tooltip" text="If active, all active contracts must be completed by end of month at the latest. Cancelling a contract will cost a penalty. Borrowing contract equipment is only unlocked after completing some jobs." />
-		<text name="bc_hardPenalty" text="Penalty" />
-		<text name="bc_hardPenalty_tooltip" text="Penalty amount for cancelled contract (in % of contract reward)." />
-		<text name="bc_hardLease" text="Unlock borrowing equipment" />
-		<text name="bc_hardLease_tooltip" text="Number of successful jobs for an NPC farmer, before they lend you their equipment." />
-		<text name="bc_hardExpire" text="Deadline" />
-		<text name="bc_hardExpire_tooltip" text="At the end of what time period all active contracts must be completed." />
-		<text name="bc_hardLimit" text="Contracts per Month" />
-		<text name="bc_hardLimit_tooltip" text="Max number of contracts that can be accepted during one month. (-1: no limit, 0: no contracts)" />
+		<text name="bc_hardModeTitle" text="高難易度モード" />
+		<text name="bc_hardMode" text="有効化" />
+		<text name="bc_hardMode_tooltip" text="有効にすると、すべての契約を遅くとも月末までに完了する必要があります。途中でキャンセルするとペナルティが発生します。また、いくつかの仕事を完了するまで機材のレンタルが解禁されません。" />
+		<text name="bc_hardPenalty" text="ペナルティ額" />
+		<text name="bc_hardPenalty_tooltip" text="契約をキャンセルした際のペナルティ額です（契約報酬の % で指定）。" />
+		<text name="bc_hardLease" text="機材レンタルの解禁条件" />
+		<text name="bc_hardLease_tooltip" text="NPC農家が機材を貸し出してくれるようになるまでに必要な、その農家での成功仕事数です。" />
+		<text name="bc_hardExpire" text="進行期限" />
+		<text name="bc_hardExpire_tooltip" text="受諾中の契約をどの期間内に完了しなければならないかを決定します。" />
+		<text name="bc_hardLimit" text="月あたりの契約制限" />
+		<text name="bc_hardLimit_tooltip" text="1ヶ月の間に受諾できる契約の最大数です（-1: 無制限、0: 契約なし）。" />
 
-		<text name="bc_discountTitle" text="Field purchase discount" />
-		<text name="bc_discountMode" text="Activated" />
-		<text name="bc_discountMode_tooltip" text="If active, an NPC farmer give a discount on farmland purchases. Discount increases with the number of completed jobs for this farmer." />
-		<text name="bc_discPerJob" text="Discount per completed contract" />
-		<text name="bc_discPerJob_tooltip" text="An NPC farmer increases their discount by this amount per job completed. Maximum discount cannot rise above 50%." />
-		<text name="bc_discMaxJobs" text="Number of discount-effective jobs" />
-		<text name="bc_discMaxJobs_tooltip" text="Can reduce the max discount, e.g. discount per contract = 11%, number of jobs = 3 -> max discount = 33%. Caution: Current number of jobs complete will decrease by this value on a farmland purchase." />
+		<text name="bc_discountTitle" text="農地購入割引" />
+		<text name="bc_discountMode" text="有効化" />
+		<text name="bc_discountMode_tooltip" text="有効にすると、NPC農家の仕事を完了した回数に応じて、その農家の所有地を購入する際の割引率が上がります。" />
+		<text name="bc_discPerJob" text="仕事完了あたりの割引率" />
+		<text name="bc_discPerJob_tooltip" text="仕事を1件完了するごとに上がる割引率です。最大割引率は50%を超えません。" />
+		<text name="bc_discMaxJobs" text="割引適用の上限仕事数" />
+		<text name="bc_discMaxJobs_tooltip" text="最大割引率を抑制できます（例: 1件あたり11%の割引で上限3件の場合 -> 最大33%）。注意: 農地購入時、それまでの完了仕事数はこの数値分減少します。" />
 		
-		<text name="bc_missionGeneration" text="Contract generation" />
-		<text name="bc_generationInterval" text="Generation Interval" />
-		<text name="bc_generationInterval_tooltip" text="Amount of in-game 6-minute intervals to wait before generating new contracts." />
+		<text name="bc_missionGeneration" text="契約の生成設定" />
+		<text name="bc_generationInterval" text="生成インターバル" />
+		<text name="bc_generationInterval_tooltip" text="新しい契約が生成されるまでのゲーム内時間（6分単位）の間隔です。" />
 
-		<text name="bc_genGrain" text="Grain harvest" />
-		<text name="bc_genGrain_tooltip" text="Generate grain harvest contracts (possibly including maize, cotton)" />
-		<text name="bc_genVegetable" text="Vegetable harvest" />
-		<text name="bc_genVegetable_tooltip" text="Generate harvest contracts for carrots, beetroot, and parsnip" />
-		<text name="bc_genGreen" text="Green crop harvest" />
-		<text name="bc_genGreen_tooltip" text="Generate harvest contracts for peas, beans, and spinach" />
-		<text name="bc_genRoot" text="Root crop harvest" />
-		<text name="bc_genRoot_tooltip" text="Generate harvest contracts for potatoes, sugarbeet" />
-		<text name="bc_genTree" text="Tree transport contracts" />
-		<text name="bc_genTree_tooltip" text="Generate tree transport contracts" />
-		<text name="bc_genDead" text="Deadwood contracts" />
-		<text name="bc_genDead_tooltip" text="Generate deadwood contracts" />
-		<text name="bc_genRock" text="Rock destruction contracts" />
-		<text name="bc_genRock_tooltip" text="Generate rock destruction contracts" />
+		<text name="bc_genGrain" text="穀物収穫" />
+		<text name="bc_genGrain_tooltip" text="穀物収穫の契約を生成します（トウモロコシやワタを含む場合があります）" />
+		<text name="bc_genVegetable" text="野菜収穫" />
+		<text name="bc_genVegetable_tooltip" text="ニンジン、ビート、パースニップの収穫契約を生成します" />
+		<text name="bc_genGreen" text="緑色野菜収穫" />
+		<text name="bc_genGreen_tooltip" text="エンドウ豆、インゲン豆、ホウレンソウの収穫契約を生成します" />
+		<text name="bc_genRoot" text="根菜収穫" />
+		<text name="bc_genRoot_tooltip" text="ジャガイモ、テンサイの収穫契約を生成します" />
+		<text name="bc_genTree" text="原木輸送" />
+		<text name="bc_genTree_tooltip" text="原木輸送の契約を生成します" />
+		<text name="bc_genDead" text="枯れ木処理" />
+		<text name="bc_genDead_tooltip" text="枯れ木処理の契約を生成します" />
+		<text name="bc_genRock" text="岩石撤去" />
+		<text name="bc_genRock_tooltip" text="岩石撤去の契約を生成します" />
 	</texts>
 </l10n>
